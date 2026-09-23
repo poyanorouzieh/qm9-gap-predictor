@@ -1,0 +1,28 @@
+# Virtual environment
+ML_based_on_QM9_env/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files (don't upload)
+model
+data/*.zip
+data/133660_curatedQM9_outof_133885/
+data/__MACOSX/
+data/*.csv
+
+# Large trained models (too big for git)
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
